@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>BugTracker</title>
+    <meta name="csrf-token" content="<%= token %>"/>
+    <script src="translations/en.js"></script>
+    <script type="text/javascript">
+    //window.backendUrl = "http://bugtracker.simonellistonball.com";
+    </script>
+    <!-- <x-compile> -->
+        <!-- <x-bootstrap> -->
+            <link rel="stylesheet" href="bootstrap.css">
+            <script src="ext/ext-dev.js"></script>
+            <script src="bootstrap.js"></script>
+        <!-- </x-bootstrap> -->
+        <script src="app.js"></script> 
+    
+    <!-- </x-compile> -->
+    <script src="locale.js"></script>
+
+</head>
+<body>
+<form id="history-form" class="x-hide-display"><input type="hidden" id="x-history-field" /><iframe id="x-history-frame"></iframe></form>
+</body>
+</html> 
