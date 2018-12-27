@@ -1,47 +1,36 @@
-Ext.define("MyApp.sample.MyContainer",{
- extend: "Ext.container.Container", //Step 1
- border: true,
- padding: 10,
- initComponent: function(){
-    var me = this;
-    Ext.each(me.items,function(item){ //Step 2
-        item.style = {
-            backgroundColor:"#f4f4f4",
-            border:"1px solid #333"
-        };
-        item.padding = 10;
-        item.height = 100;
-    });
-    me.callParent();
- },
- onRender: function(){
-    var me = this;
-    me.callParent(arguments);
-    if( me.border ){ //Step 3
-        me.el.setStyle( "border" , "1px solid #333" );
-    }
- }
+Ext.define('Myapp.model.Contract',{
+ extend:'Ext.data.Model',
+ idProperty:'id ',
+ fields:[
+ {name: 'id', type: 'int' },
+ {name: 'contractId', type: 'string'},
+ {name: 'documentType', type: 'string'}
+ ]
 });
-Ext.onReady(function(){
-    Ext.create("MyApp.sample.MyContainer",{
-        renderTo: Ext.getBody(),
-        //Using defaults
-        defaults: {
-            xtype : "component",
-            width : 100
-        },
-        items :[{
-            html:"Child Component one", //xtype:"component",
-            width: 300
-            },{
-            html:"Child Component two" //xtype:"component",
-        }],
-        // items: [{
-        //     xtype: "component",
-        //     html: "Child Component one"
-        // },{
-        //     xtype: "component",
-        //     html: "Child Component two"
-        // }]
-    });
+Ext.define('Myapp.model.Customer',{
+ extend:'Ext.data.Model',
+requires: ['Myapp.model.Contract'],
+ idProperty:'id ',
+fields:[
+ {name: 'id', type: 'int'},
+ {name: 'name' , type: 'string'},
+ {name: 'phone' , type: 'string'},
+ {name: 'website' , type: 'string'},
+ {name: 'status' , type: 'string'},
+ {name: 'clientSince' , type: 'date', dateFormat: 'Y-m-d H:i'},
+ {name: 'contractInfo' , reference: 'Contract', unique:true}
+ ]
+});
+var myclient = Ext.create('Myapp.model.Customer',{
+    id: 10001,
+    name: 'Acme corp',
+    phone: '+52-01-55-4444-3210',
+    website: 'www.acmecorp.com',
+    status: 'Active',
+    clientSince: '2010-01-01 14:35',
+    contractInfo:{
+        id:444,
+        contractId:'ct-001-444',
+        documentType:'PDF'
+    }
 });
