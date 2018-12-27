@@ -7,7 +7,9 @@
 Ext.Loader.addClassPathMappings({
   "BugTracker": "app",
   "BugTracker.proxy.BugTracker": "app/proxy/BugTracker.js",
+  "BugTracker.view.Login": "app/view/login.js",
   "Ext": "ext/src",
+  "Ext.Boot": ".sencha/app/Boot.js",
   "Ext.DomHelper": "ext/src/dom/Helper.js",
   "Ext.DomQuery": "ext/src/dom/Query.js",
   "Ext.EventObjectImpl": "ext/src/EventObject.js",
@@ -66,6 +68,7 @@ Ext.ClassManager.addNameAlternateMappings({
   "BugTracker.controller.Theme": [],
   "BugTracker.controller.Translation": [],
   "BugTracker.controller.Users": [],
+  "BugTracker.controller.admin.AbstractMasterData": [],
   "BugTracker.model.AbstractLookup": [],
   "BugTracker.model.Broken": [],
   "BugTracker.model.Bug": [],
@@ -550,6 +553,7 @@ Ext.ClassManager.addNameAlternateMappings({
   ],
   "Ext.grid.RowEditor": [],
   "Ext.grid.RowEditorButtons": [],
+  "Ext.grid.Scroller": [],
   "Ext.grid.View": [],
   "Ext.grid.ViewDropZone": [],
   "Ext.grid.column.Action": [
@@ -997,6 +1001,7 @@ Ext.ClassManager.addNameAliasMappings({
   "BugTracker.controller.Theme": [],
   "BugTracker.controller.Translation": [],
   "BugTracker.controller.Users": [],
+  "BugTracker.controller.admin.AbstractMasterData": [],
   "BugTracker.model.AbstractLookup": [],
   "BugTracker.model.Broken": [],
   "BugTracker.model.Bug": [],
@@ -1093,7 +1098,7 @@ Ext.ClassManager.addNameAliasMappings({
     "widget.chart-bugline"
   ],
   "BugTracker.view.charts.BugRadar": [
-    "widget.chart-bugradar"
+    "widget.bugradar"
   ],
   "Ext.AbstractComponent": [],
   "Ext.AbstractManager": [],
@@ -1587,6 +1592,7 @@ Ext.ClassManager.addNameAliasMappings({
   "Ext.grid.RowEditorButtons": [
     "widget.roweditorbuttons"
   ],
+  "Ext.grid.Scroller": [],
   "Ext.grid.View": [
     "widget.gridview"
   ],
@@ -2153,10 +2159,10 @@ Ext.ClassManager.addNameAliasMappings({
   "ExtThemeNeptune.toolbar.Paging": [],
   "ExtThemeNeptune.toolbar.Toolbar": []
 });
-Ext.setVersion("bugtracker-theme", "1.0.0");
 Ext.setVersion("ext-theme-base", "4.2.1");
-Ext.setVersion("ext-theme-neptune", "4.2.1");
 Ext.setVersion("ext-theme-neutral", "4.2.1");
+Ext.setVersion("ext-theme-neptune", "4.2.1");
+Ext.setVersion("bugtracker-theme", "1.0.0");
 Ext.Loader.loadScript("ext/packages/ext-theme-neptune/overrides/Component.js");;
 Ext.Loader.loadScript("ext/packages/ext-theme-neptune/overrides/toolbar/Toolbar.js");;
 Ext.Loader.loadScript("ext/packages/ext-theme-neptune/overrides/layout/component/Dock.js");;
