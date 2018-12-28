@@ -2,7 +2,8 @@ Ext.define('myApp.view.myViewport', {
     extend: 'Ext.container.Viewport',
     alias: 'widget.myViewport',
     requires: [
-        'Ext.panel.Panel'
+        'Ext.panel.Panel',
+        'myApp.view.appZone',
     ],
     layout: 'border',
     items: [{
@@ -16,12 +17,8 @@ Ext.define('myApp.view.myViewport', {
         header: false,
         html: '<div class="appheader appheaderbg"><img src="resources/images/myapp_logo.png"/></div>',
     },{
-        xtype: 'panel',
-        region: 'north',
-        itemId: 'appContent',
-        bodyPadding: 0,
-        title: '',
-        header: false,
-        html: 'Content goes here',
+        xtype: 'appzone',
+        region: 'center',
+        itemId: 'myappZone'
     }]
 })
