@@ -1,0 +1,147 @@
+{
+	"text": "My app",
+	"expanded": true,
+	"allowaccess":true,
+	"description":"Main application",
+	"level":1,
+	"children": [
+		{
+			"text": "Modules",
+			"expanded": true,
+			"allowaccess":false,
+			"description":"Main modules for administrate information",
+			"level":2,
+			"children": [
+				{
+					"leaf": true,
+					"text": "Employees",
+					"allowaccess":false,
+					"description":"Employee administration",
+					"iconCls":"clients-16",
+					"level":3,
+					"moduleType":"module",
+					"options":"myApp.view.inDevelopment"			
+				},{
+					"leaf": true,
+					"text": "Customers",
+					"allowaccess":false,
+					"description":"Customer administration",
+					"level":3,
+					"iconCls":"customer-16",
+					"moduleType":"module",
+					"moduleAlias":"customersmodule",
+					"options":"myApp.view.modules.customers"
+				},{
+					"leaf": true,
+					"text": "Products",
+					"allowaccess":false,
+					"description":"Products administration",
+					"level":3,
+					"iconCls":"products-16",
+					"moduleType":"module",
+					"options":"myApp.view.inDevelopment"					
+				}
+			]
+		}, {
+			"text": "Marketing",
+			"expanded": true,
+			"allowaccess":false,
+			"description":"Marketing modules",
+			"level":2,
+			"children": [
+				{
+					"leaf": true,
+					"text": "Sales",
+					"allowaccess":false,
+					"description":"Sales administration",
+					"level":3,
+					"iconCls":"sales-16",
+					"moduleType":"module",
+					"options":"myApp.view.inDevelopment"	
+				}, {
+					"leaf": true,
+					"text": "Budgets",
+					"allowaccess":false,
+					"description":"Budgets administration",					
+					"level":3,
+					"moduleType":"module",
+					"iconCls":"budget-16",
+					"options":"myApp.view.inDevelopment"	
+				}, {
+					"leaf": true,
+					"text": "SEO",
+					"allowaccess":false,
+					"description":"SEO administration",					
+					"level":3,
+					"moduleType":"module",
+					"iconCls":"seo-16",
+					"options":"myApp.view.inDevelopment"	
+				}, {
+					"leaf": true,
+					"text": "Statistics",
+					"allowaccess":false,
+					"description":"Statistics generator",
+					"level":3,
+					"moduleType":"module",
+					"iconCls":"chartx-16",
+					"options":"myApp.view.inDevelopment"	
+				}
+			]
+		}, {
+			"text": "Support",
+			"description":"Support modules",
+			"level":2,
+			"expanded": true,
+			"children": [
+				{
+					"leaf": true,
+					"text": "Submit a ticket",
+					"allowaccess":false,
+					"description":"Submit support tickets",
+					"level":3,
+					"moduleType":"window",
+					"iconCls":"support-16",
+					"options":"myApp.view.ticket"	
+				}, {
+					"leaf": true,
+					"text": "Forum",
+					"allowaccess":false,
+					"description":"Go to Forum",					
+					"level":3,					
+					"moduleType":"link",
+					"iconCls":"link-16",
+					"options":"http://www.sencha.com/forum/"	
+				}, {
+					"leaf": true,
+					"text": "Visit our web site",
+					"allowaccess":false,
+					"description":"Go to website",	
+					"level":3,					
+					"moduleType":"link",
+					"iconCls":"link-16",
+					"options":"http://www.sencha.com/"	
+				}
+			]
+		},{
+			"leaf": true,
+			"text": "Charts",
+			"allowaccess":false,
+			"description":"Generate charts",				
+			"level":2,
+			"moduleType":"module",
+			"iconCls":"charts-16",
+			"options":"myApp.view.myChartSample",	
+			"moduleAlias":"myChartSamplePanel"
+		},{
+			"leaf": true,
+			"text": "Drawing",
+			"allowaccess":false,
+			"description":"Basic Drawing in Extjs",	
+			"level":2,
+			"moduleType":"module",
+			"iconCls":"colors-16",
+			"options":"myApp.view.drawingSample", 
+			"moduleAlias":"mydrawsamplePanel"
+		} 
+	]
+}
