@@ -1,0 +1,24 @@
+{
+    "framework": "jasmine",
+    "libs": [],
+    "coverageFilters": [],
+    "scenarios": [
+        {
+            "libs": [
+                {
+                    "disabled": false,
+                    "path": "/test/New_Scenario_1/lib",
+                    "type": "directory"
+                }
+            ],
+            "coverageFilters": [],
+            "webdriverContext": "webdriver",
+            "sandbox": true,
+            "globals": "*",
+            "directory": "create_new_task",
+            "name": "create new task"
+        }
+    ],
+    "pageObjects": [],
+    "subjectUrl": "http://examples.sencha.com/extjs/6.5.3/examples/admin-dashboard/"
+}

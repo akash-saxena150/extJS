@@ -18,6 +18,21 @@
             "directory": "Customer_tab",
             "page": "localhost:1841/#",
             "name": "Customer tab"
+        },
+        {
+            "libs": [
+                {
+                    "disabled": false,
+                    "path": "/test/userdashboard/lib",
+                    "type": "directory"
+                }
+            ],
+            "coverageFilters": [],
+            "webdriverContext": "webdriver",
+            "sandbox": true,
+            "globals": "*",
+            "directory": "userdashboard",
+            "name": "userdashboard"
         }
     ],
     "pageObjects": [],
