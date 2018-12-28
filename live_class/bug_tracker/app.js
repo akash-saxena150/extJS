@@ -119,11 +119,11 @@ Ext.define('Myapp.store.customers.Customers',{
     extend:'Ext.data.Store',
     model: 'Myapp.model.Customer',
     proxy:{
-    type:'ajax',
-    url: 'serverside/customers.php',
-    reader: {
-    type:'json',
-    rootProperty:'records'
+        type:'ajax',
+        url: 'serverside/customers.php',
+        reader: {
+        type:'json',
+        rootProperty:'records'
     }
  }
 });

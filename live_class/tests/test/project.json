@@ -1,0 +1,25 @@
+{
+    "framework": "jasmine",
+    "libs": [],
+    "coverageFilters": [],
+    "scenarios": [
+        {
+            "libs": [
+                {
+                    "disabled": false,
+                    "path": "/test/Customer_tab/lib",
+                    "type": "directory"
+                }
+            ],
+            "coverageFilters": [],
+            "webdriverContext": "webdriver",
+            "sandbox": true,
+            "globals": "*",
+            "directory": "Customer_tab",
+            "page": "localhost:1841/#",
+            "name": "Customer tab"
+        }
+    ],
+    "pageObjects": [],
+    "subjectUrl": "http://localhost:1841"
+}

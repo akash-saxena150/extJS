@@ -1,0 +1,59 @@
+/* CSS Document */
+.x-tree-icon{
+	width: 24px !important;
+    height: 32px !important;	
+} 
+.appheader{ width:100%; padding:5px;}
+.appheaderbg{  background-color:#CCC; }
+.appheader img{ width:185px; }
+
+.addicon-24{ background:transparent url('../images/add_24x24.png') center 0 no-repeat !important; }
+.addicon-32{ background:transparent url('../images/add_32x32.png') center 0 no-repeat !important; }
+.addicon-16{ background:transparent url('../images/add_16x16.png') center 0 no-repeat !important; }
+
+.deleteicon-16{ background:transparent url('../images/delete_24x24.png') center 0 no-repeat !important; }
+.editicon-16{ background:transparent url('../images/pencil_24x24.png') center 0 no-repeat !important; }
+.cancelicon-16{ background:transparent url('../images/cancel_24x24.png') center 0 no-repeat !important; }
+
+.help-16{ background:transparent url('../images/help_24x24.png') center 0 no-repeat !important; }
+.help-32{ background:transparent url('../images/help_32x32.png') center 0 no-repeat !important; }
+
+.print-16{ background:transparent url('../images/printer_24x24.png') center 0 no-repeat !important; }
+.print-32{ background:transparent url('../images/printer_32x32.png') center 0 no-repeat !important; }
+
+.export-16{ background:transparent url('../images/table_export_24x24.png') center 0 no-repeat !important; }
+.export-32{ background:transparent url('../images/table_export_32x32.png') center 0 no-repeat !important; }
+
+.home-16{ background:transparent url('../images/home_page_24x24.png') center 0 no-repeat !important; } 
+.home-32{ background:transparent url('../images/home_page_32x32.png') center 0 no-repeat !important; } 
+.app-modules{background:transparent url('../images/application_view_tile.png') center 0 no-repeat !important; } 
+
+.warning-module{ background:transparent url('../images/error_24x24.png') center 0 no-repeat !important; } 
+
+.categories-16{ background:transparent url('../images/three_tags_24x24.png') center 0 no-repeat !important; } 
+.products-16{ background:transparent url('../images/package_24x24.png') center 0 no-repeat !important; } 
+.clients-16{ background:transparent url('../images/group_24x24.png') center 0 no-repeat !important; } 
+.customer-16{ background:transparent url('../images/ceo_24x24.png') center 0 no-repeat !important; } 
+.invoices-16{ background:transparent url('../images/receipt_invoice_24x24.png') center 0 no-repeat !important; } 
+.save-16{ background:transparent url('../images/diskette_24x24.png') center 0 no-repeat !important; } 
+.sendmail-16{  background:transparent url('../images/email_go_24x24.png') center 0 no-repeat !important; } 
+.sendmailblock-16{  background:transparent url('../images/email_error_24x24.png') center 0 no-repeat !important; } 
+.link-16{ background:transparent url('../images/world_link_24x24.png') center 0 no-repeat !important; }
+.support-16{ background:transparent url('../images/question_24x24.png') center 0 no-repeat !important; }
+.charts-16{ background:transparent url('../images/chart_bar_24x24.png') center 0 no-repeat !important; } 
+.reports-16{ background:transparent url('../images/reports_24x24.png') center 0 no-repeat !important; } 
+.sales-16{ background:transparent url('../images/chart_up_24x24.png') center 0 no-repeat !important; } 
+.budget-16{ background:transparent url('../images/money_bag_24x24.png') center 0 no-repeat !important; } 
+.seo-16{ background:transparent url('../images/search_accounts_24x24.png') center 0 no-repeat !important; } 
+.chartx-16{ background:transparent url('../images/chart_curve_24x24.png') center 0 no-repeat !important; } 
+.colors-16{ background:transparent url('../images/colors_24x24.png') center 0 no-repeat !important; } 
+
+.flag_usa{ background:transparent url('../images/flag_usa.png') center 0 no-repeat !important; width:18px; float:left;  } 
+.flag_mexico{  background:transparent url('../images/flag_mexico.png')center 0 no-repeat !important; width:18px;  float:left; } 
+
+.cust_active{ color:#036; font-weight:normal;  }
+.cust_inactive{ color:#999; font-weight:bold;  }
+.cust_suspended{ color:#900; font-weight:bold; }
+.cust_prospect{ color:#063; font-weight:normal;} 
+.customer_foregin { font-style:italic; color:#063; } 
+

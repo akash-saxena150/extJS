@@ -1,0 +1,61 @@
+{
+	"text": "My app",
+	"expanded": true,
+	"children": [
+		{
+			"text": "Modules",
+			"expanded": true,
+			"children": [
+				{
+					"leaf": true,
+					"text": "Employees"
+				}, {
+					"leaf": true,
+					"text": "Customers"
+				}, {
+					"leaf": true,
+					"text": "Products"
+				}
+			]
+		}, {
+			"text": "Market",
+			"expanded": true,
+			"children": [
+				{
+					"leaf": true,
+					"text": "Sales"
+				}, {
+					"leaf": true,
+					"text": "Budgets"
+				}, {
+					"leaf": true,
+					"text": "SEO"
+				}, {
+					"leaf": true,
+					"text": "Statistics"
+				}
+			]
+		}, {
+			"text": "Support",
+			"iconCls": "help-16",
+			"children": [
+				{
+					"leaf": true,
+					"text": "Submit a ticket"
+				}, {
+					"leaf": true,
+					"text": "Forum"
+				}, {
+					"leaf": true,
+					"text": "Visit our web site"
+				}
+			]
+		}, {
+			"leaf": true,
+			"text": "Reports"
+		}, {
+			"leaf": true,
+			"text": "Charts"
+		}
+	]
+}
